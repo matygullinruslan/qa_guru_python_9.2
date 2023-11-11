@@ -15,4 +15,3 @@ def test_browser_open(browser_open):
     browser.open('https://www.google.ru/')
     browser.element('#APjFqb').click().type('asdfghjsdfgqasdfgujmyhnt5gbrf').press_enter()
     browser.element('#appbar').should(have.text('Результатов: примерно 0'))
-    print('Проверяем, что по запgit initросу ничего не найдено')
